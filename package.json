@@ -2,7 +2,7 @@
   "name": "react-native-locale-detector",
   "version": "1.0.0",
   "description": "Detects the locale of a user's phone.",
-  "main": "index.js",
+  "license": "MIT",
   "author": "Dylan Vann <dylan.vann@gmail.com> (dylanvann.com)",
-  "license": "MIT"
+  "main": "index.js"
 }
