@@ -15,6 +15,10 @@
 @implementation RNI18n
 RCT_EXPORT_MODULE();
 
++ (BOOL)requiresMainQueueSetup {
+  return YES;
+}
+
 -(NSString*) getCurrentLocale{
     NSString *localeString=[[NSLocale preferredLanguages] objectAtIndex:0];
     return localeString;
